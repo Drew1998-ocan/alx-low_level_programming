@@ -7,7 +7,7 @@
  * main -Entry point
  *
  * Return: always 0 (success otr correct)
- * */
+ */
 int main(void)
 {
 	int n;
