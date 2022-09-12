@@ -1,12 +1,10 @@
 #include <stdio.h>
-
 /**
  *
- *  * main - Prints the alphabet in lower case
+ * main - Prints the alphabet in lower case
  *
- *   * Return: 0 on success
- *
- *    */
+ * Return: 0 on success
+ **/
 
 int main(void)
 {
