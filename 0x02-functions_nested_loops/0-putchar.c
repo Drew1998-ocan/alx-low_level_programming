@@ -6,8 +6,13 @@
  **/
 int main(void)
 {
-	char ch = "_putchar";
+	char ch[] = "_putchar";
+	int i;
 
-	putchar(ch);
+	for (i=0; i <= 8; i++ )
+	{
+		putchar(ch[i]);
+	}
+	putchar('\n');
 	return (0);
 }
