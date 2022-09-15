@@ -1,6 +1,11 @@
 #include <stdio.h>
 /**
 * main - causes an infinite loop
+*
+* printf one - prints "infinte koop incoming"
+*
+* pritf two - prints the "infininte loop avoided"
+*
 * Return: 0
 */
 int main(void)
