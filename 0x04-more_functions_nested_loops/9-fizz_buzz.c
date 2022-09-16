@@ -2,7 +2,7 @@
 /**
  * main - function that checks for uppercase character.
  * Return: 0
- */
+ **/
 int main(void)
 {
 	int h = 1;
