@@ -1,11 +1,14 @@
 #include <stdio.h>
 /**
- * function void reset_to_98 - function for updatin the value
- * @n is the variable
- * Return : 0 (on success)
+ * reset_to_98 - function for updating the value
+ * of the pointer
+ *
+ * @*n is the pointer variable
+ *
+ * Return : *n = 98
  *
  **/
 void reset_to_98(int *n)
 {
-	*n = 98;
+	return (*n = 98);
 }
