@@ -2,7 +2,6 @@
 /**
 * puts_half - prints the 2nd half of the string
 * followed by a new line
-* @str: the string to be checked
 */
 void puts_half(char *str)
 {
@@ -12,7 +11,7 @@ void puts_half(char *str)
 	while (str[i] != '\0')
 	{
 		i++;
-	`}
+	}
 	m = i + 1;
 	if (m % 2 == 0)
 	{
@@ -32,5 +31,7 @@ void puts_half(char *str)
 			n++;
 		}
 	}
+
 	_putchar('\n');
+
 }
