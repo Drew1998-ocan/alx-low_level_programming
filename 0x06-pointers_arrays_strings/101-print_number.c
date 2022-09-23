@@ -3,11 +3,19 @@
 * print_number - prints an integer
 * @n: the input integer
 */
+
 void print_number(int n)
+
 {
+
 	unsigned int i;
 
+
+
 	i = n;
+
+
+
 	if (n < 0)
 
 	{
@@ -28,4 +36,3 @@ void print_number(int n)
 
 	_putchar(i % 10 + '0');
 
-}
