@@ -1,18 +1,53 @@
 #include "main.h"
-#include <stdio.h>
 /**
- * main - check the code
+ * _strspn - this function gets the legth in bytes
  *
- * Return: Always 0.
+ * @s: string
+ * @accept: charachter to find
+ *
+ * Return: dest
  */
-int main(void)
+unsigned int _strspn(char *s, char *accept)
 {
-char *s = "hello, world";
-char *f = "world";
-char *t;
+	int i;
+	int x;
+	int z = 0;
+	int b = 0;
 
-t = _strpbrk(s, f);
-printf("%s\n", t);
-return (0);
+	while (accept[z] != '\0')
+	{
+		z++;
+	}
+	for (i = 0; i <= z; i++)
+
+	{
+
+		for (x = 0; accept[x] != '\0'; x++)
+
+		{
+
+			if (s[i] == accept[x])
+
+			{
+
+				b++;
+
+				break;
+
+			}
+
+		}
+
+		if (accept[x] == '\0')
+
+		{
+
+			break;
+
+		}
+
+	}
+
+	return (i);
 
 }
