@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-/*
- *main - the main function of the progam, 
+/**
+ *main - prints the name of the program,
  *prints the values of the name of the program
  *
  *@argc: this is the argument count that is entered int o the program
@@ -9,10 +9,13 @@
  *
  *return : always 0on success
  */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
-	while(argc--)
-		printf("the value is: %s", *argv++);
-	exit(EXIT_SUCCESS);
+	int i;
 
+	for (i = 0; i < argc; i++)
+	{
+		printf("the name of the program is: %s\n", argv[0]);
+	}
+	return (0);
 }
