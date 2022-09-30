@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <main.h>
+#include "main.h"
 /**
  *main - prints the name of the program,
  *prints the values of the name of the program
@@ -8,7 +8,7 @@
  *@argc: this is the argument count that is entered int o the program
  *@argv: the argument vector
  *
- *return : always 0on success
+ *Return: always 0 on success
  */
 int main(int argc __attribute__((unused)), char *argv[])
 {
