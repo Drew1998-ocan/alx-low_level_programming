@@ -15,3 +15,8 @@ Write a function that creates an array of integers.
 
 	#from the interanet 
 -https://alx-intranet.hbtn.io/concepts/62
+
+# my thought about the program 
+is that it will introduece me to know more on the dynamic memory allocation
+
+
